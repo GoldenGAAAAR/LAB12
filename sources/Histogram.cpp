@@ -7,7 +7,7 @@ void Histogram::OnDataLoaded(const std::vector<Item>&,
   Log::get_instance().WriteDebug("Histogram::OnDataLoaded");
   _avg = 0;
   size_t i = 0;
-  for(; i < new_items.size(); ++i) {
+  for (; i < new_items.size(); ++i) {
     _avg += new_items[i].score;
   }
 

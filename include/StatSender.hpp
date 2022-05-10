@@ -4,6 +4,7 @@
 #define INCLUDE_STATSENDER_HPP_
 
 #include <string_view>
+#include <string>
 #include <vector>
 
 #include "Observer.hpp"

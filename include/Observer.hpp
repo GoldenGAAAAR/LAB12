@@ -1,7 +1,7 @@
 // Copyright 2022 VladislavRz <rzhevskii_vladislav@mail.ru>
 
-#ifndef INCLUDE_EXAMPLE_HPP_
-#define INCLUDE_EXAMPLE_HPP_
+#ifndef INCLUDE_OBSERVER_HPP_
+#define INCLUDE_OBSERVER_HPP_
 
 #include <string>
 #include <vector>
@@ -24,4 +24,4 @@ class Observer {
 };
 
 
-#endif // INCLUDE_EXAMPLE_HPP_
+#endif // INCLUDE_OBSERVER_HPP_

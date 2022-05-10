@@ -3,6 +3,9 @@
 #ifndef INCLUDE_HISTOGRAM_HPP_
 #define INCLUDE_HISTOGRAM_HPP_
 
+#include <string>
+#include <vector>
+
 #include "Observer.hpp"
 #include "Log.hpp"
 

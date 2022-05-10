@@ -6,6 +6,8 @@
 #include <set>
 #include <sstream>
 #include <algorithm>
+#include <string>
+#include <vector>
 #include "Observer.hpp"
 #include "StatSender.hpp"
 #include "UsedMemory.hpp"

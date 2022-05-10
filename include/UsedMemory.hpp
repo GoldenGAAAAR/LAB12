@@ -4,6 +4,7 @@
 #define INCLUDE_USEDMEMORY_HPP_
 
 #include <vector>
+#include <string>
 
 #include "Observer.hpp"
 #include "Log.hpp"

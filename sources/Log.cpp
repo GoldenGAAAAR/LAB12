@@ -4,7 +4,7 @@
 
 Log::Log()
     :_level(0)
-    ,_out(&std::cout){}
+    , _out(&std::cout){}
 
 Log& Log::get_instance() {
   static Log log;

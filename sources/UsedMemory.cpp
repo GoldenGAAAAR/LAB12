@@ -19,7 +19,8 @@ void UsedMemory::OnDataLoaded(const std::vector<Item>& old_items,
     _used += item.name.capacity();
     _used += sizeof(item.score);
   }
-  Log::get_instance().Write("UsedMemory::OnDataLoad: new size = " + std::to_string(_used));
+  Log::get_instance().Write("UsedMemory::OnDataLoad: new size = " +
+                            std::to_string(_used));
 }
 
 void UsedMemory::OnRawDataLoaded(const std::vector<std::string>& old_items,
@@ -32,7 +33,8 @@ void UsedMemory::OnRawDataLoaded(const std::vector<std::string>& old_items,
   for (const auto& item : new_items) {
     _used += item.capacity();
   }
-  Log::get_instance().Write("UsedMemory::OnDataLoad: new size = " + std::to_string(_used));
+  Log::get_instance().Write("UsedMemory::OnDataLoad: new size = " +
+                            std::to_string(_used));
 }
 
 size_t UsedMemory::used() const { return _used; }
